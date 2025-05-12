@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="70dp"
+    android:padding="16dp">
+
+    <!-- EditText for Task Title -->
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- EditText for Task Description -->
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- TextView for Due Date (selecting a date) -->
+    <TextView
+        android:id="@+id/dueDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Due Date"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="?android:attr/selectableItemBackground" />
+
+    <!-- Button to Save Task -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Task"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
